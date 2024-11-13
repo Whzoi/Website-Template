@@ -1,6 +1,8 @@
 # Website Template
  I guess you could say this is a ecommerce website?
 
+ FYI - The file structure for this is a mess btw
+
 
 # How to Install -
 

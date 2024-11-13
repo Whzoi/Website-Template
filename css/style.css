@@ -1,0 +1,394 @@
+/** Import some fancy Fonts! **/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/**  Change the background colour **/
+body{
+
+  background-image: linear-gradient(to right, #072451 , #53258A);
+
+}
+
+/** I'd suggest not touching this unless you know what your doing **/
+
+.navbar{
+
+color: white;
+
+}
+
+.home {
+
+  text-align: center;
+  color: white;
+  margin-left: 20px;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+.prices{
+  text-align: right;
+  margin-left: 20px;
+  color: white;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.faq{
+  margin-left: 20px;
+  color: white;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+.contact{
+  margin-left: 20px;
+
+  color: white;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.discord{
+  text-align: right;
+  color: navajowhite;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+
+
+
+
+}
+
+.starttitle{
+
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+
+.starttitle2{
+
+  color: pink;
+  text-align: center;
+  margin-top: -15px;
+  font-size: 40px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+
+.starttitle3{
+
+  color: pink;
+  text-align: center;
+  margin-top: -15px;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+.starttitle4{
+
+  color: pink;
+  text-align: center;
+  margin-top: -10px;
+  font-size: 20px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+
+.starttitle5{
+
+  color: white;
+  text-align: center;
+  margin-top: -20px;
+  font-size: 10px;
+  font-family: Inter;
+  font-weight: bolder;
+}
+
+.anyway{
+
+  color: #bca4ff;
+  text-align: center;
+  margin-top: 250px;
+  font-size: 70px;
+  font-family: Inter;
+  font-weight: bolder;
+
+}
+
+
+.showcase1{
+
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  text-align: center;
+  border-width:5px;
+  border-style:solid;
+  border-color:#705C90;
+  border-radius: 20px;
+  text-align: center;
+
+
+}
+
+
+.showcase2{
+
+  margin-left: 30%;
+
+
+}
+
+.space2 {
+
+  margin: -100px;
+
+}
+
+.meettitle {
+
+  color: white;
+  font-family: "Roboto";
+  font-size: 30px;
+  text-align: left;
+  margin-left: -490px;
+  margin-top: 90px;
+  position: absolute;
+  font-weight: initial;
+  font-weight: bold;
+}
+
+.space{
+
+  margin: 10px;
+
+
+}
+
+header{
+
+  position: relative;
+  padding: 20px;  /* Adjust padding as needed */
+
+}
+
+.logo {
+  width: 200px;  /* Adjust the width as needed */
+  height: auto;  /* Maintain aspect ratio */
+  position: absolute; /* Positioning the logo */
+  top: 0;
+  left: 0;
+
+}
+
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+
+.visually-hidden.focusable:active,
+.visually-hidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * The use of `table` rather than `block` is only necessary if using
+ * `::before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
